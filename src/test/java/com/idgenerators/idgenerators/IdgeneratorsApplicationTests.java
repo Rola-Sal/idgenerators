@@ -18,7 +18,7 @@ class IdgeneratorsApplicationTests {
 	@Test
 	public void testCreat() {
 		Employee employee = new Employee();
-		employee.setName("Rola Slahat");
+		employee.setName("Rola Salahat");
 		repository.save(employee);
 	}
 
