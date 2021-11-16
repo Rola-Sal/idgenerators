@@ -11,7 +11,6 @@ public class Employee {
     @GeneratedValue(generator = "emp_id")
     @Id
     //@GeneratedValue(strategy = GenerationType.TABLE, generator = "employee_gen")
-
     private long id;
     private String name;
 
